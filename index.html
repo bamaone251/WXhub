@@ -10,28 +10,47 @@
        .navbar {
            display: flex;
            justify-content: space-around;
-           background-color: #c2bfbf;
+           background-color: #156464;
            padding: 5px;
        }
        .navbar button {
            background-color: #444;
-           color: white;
+           color: rgb(13, 151, 140);
            border: none;
            padding: 5px 10px;
            cursor: pointer;
            font-size: 20px;
        }
        .navbar button:hover {
-           background-color: #e6d6d6;
+           background-color: #a55050;
        }
        .button {
-           background-color: #444;
-           color: rgb(172, 206, 180);
+           background-color: #0b9099;
+           color: rgb(12, 12, 12);
            border: none;
            padding: 5px 10px;
            cursor: pointer;
            font-size: 20px;
        }
+
+       .meto {
+        align-self: center;
+        height: 400px;
+        width: 80%;
+        display: flex;
+            flex-wrap: nowrap;
+            overflow: hidden;
+            object-fit: scale-down;
+       }
+       .meto iframe {
+        width: 100%;
+        height: 100 ;
+        display: flex;
+            flex-wrap: nowrap;
+            overflow: hidden;
+            object-fit: scale-down;
+       }
+       
    </style>
 </head>
 <body>
@@ -47,8 +66,19 @@
             !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
             </script></h1>
 
-            <div>
-                <iframe width="49.5%" height="600"  src="https://globe.adsbexchange.com/" frameborder="0"></iframe>
+           
+
+         
+                <script type="text/javascript">
+                    // Map appearance
+                    var width="49.5%";         // width in pixels or percentage
+                    var height="600";         // height in pixels
+                    var latitude="30.50";     // center latitude (decimal degrees)
+                    var longitude="-87.6452";    // center longitude (decimal degrees)
+                    var zoom="9";             // initial zoom (between 3 and 18)
+                </script>
+                <script type="text/javascript" src="https://www.vesselfinder.com/aismap.js"></script>
+
    
 
 
@@ -62,6 +92,10 @@
             </div>
             <li></li>
 
+            
+            <div>
+                
+
             <iframe height="900" width="99.8%" src="https://bamaone251.github.io" title="Embedded Website"></iframe>
         
             </div>
@@ -71,36 +105,38 @@
   
      <div>
         
-        <iframe width="620" height="315" src="https://www.youtube.com/embed/pJqrjIuvGFE?si=gM8CBmevMBnelX0u; autoplay=1&cc_load_policy=1&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="33%" height="315" src="https://www.youtube.com/embed/pJqrjIuvGFE?si=gM8CBmevMBnelX0u; autoplay=1&cc_load_policy=1&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         
-        <iframe width="620" height="315" src="https://www.youtube.com/embed/N5wWOVOTHmQ?si=4qvreNWcrVKE7K47; autoplay=1&cc_load_policy=1&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="33%" height="315" src="https://www.youtube.com/embed/N5wWOVOTHmQ?si=4qvreNWcrVKE7K47; autoplay=1&cc_load_policy=1&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         
-        <iframe width="620" height="315" src="https://webcams.windy.com/webcams/stream/1647127872" allowfullscreen  frameborder="0" ></iframe>
+        <iframe width="33%" height="315" src="https://webcams.windy.com/webcams/stream/1647127872" allowfullscreen  frameborder="0" ></iframe>
 
-        <iframe width="620" height="315" src="https://www.youtube.com/embed/jSfjVpXcoGI?si=8h9Kl1Wq45Uo0XWp;autoplay=1&cc_load_policy=1&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="33%" height="315" src="https://www.youtube.com/embed/jSfjVpXcoGI?si=8h9Kl1Wq45Uo0XWp;autoplay=1&cc_load_policy=1&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
        
 
-        <iframe width="620" height="315" src="https://www.youtube.com/embed/GvbhY-EaPJg?si=Kwk5gqGHPicIlF2p;autoplay=1&cc_load_policy=1&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="33%" height="315" src="https://www.youtube.com/embed/GvbhY-EaPJg?si=Kwk5gqGHPicIlF2p;autoplay=1&cc_load_policy=1&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-        <iframe width="620" height="315" src="https://www.youtube.com/embed/fYsEy6RFskY?si=UDT77BXWx9zPhPzZ;autoplay=1&cc_load_policy=1&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="33%" height="315" src="https://www.youtube.com/embed/fYsEy6RFskY?si=UDT77BXWx9zPhPzZ;autoplay=1&cc_load_policy=1&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
     </div>
  
     <div class="tides">
      
 
-        <img width="32%" height="200" src="https://www.tideschart.com/tide-charts/en/Spanish-Fort-Baldwin-County-Alabama-United-States-tide-chart-6149641-ft.png?date=xxxxxxxx">
+        <img width="32%" height="200" src="https://www.tideschart.com/tide-charts/en/Spanish-Fort-Baldwin-County-Alabama-United-States-tide-chart-6149641-ft.png?">
 
              
         
-        <img width="32%" height="200" src="https://www.tideschart.com/tide-charts/en/Point-Clear-Baldwin-County-Alabama-United-States-tide-chart-6139423-ft.png?date=xxxxxxxx">
+        <img width="32%" height="200" src="https://www.tideschart.com/tide-charts/en/Point-Clear-Baldwin-County-Alabama-United-States-tide-chart-6139423-ft.png?">
         
-        <img width="32%" height="200" src="https://www.tideschart.com/tide-charts/en/Weeks-Bay-Baldwin-County-Alabama-United-States-tide-chart-6158032-ft.png?date=xxxxxxxx">
+        <img width="32%" height="200" src="https://www.tideschart.com/tide-charts/en/Weeks-Bay-Baldwin-County-Alabama-United-States-tide-chart-6158032-ft.png?">
 
     </div>
-
-    
+    <li></li>
+    <div class="meto">
+        <iframe width="80%" height="400" src="https://my.meteoblue.com/images/meteogram?temperature_units=F&windspeed_units=mph&precipitation_units=inch&darkmode=false&iso2=us&lat=30.523&lon=-87.9033&asl=37&tz=America%2FChicago&dpi=72&apikey=jhMJTOUVRNvs25m4&lang=en&location_name=Fairhope&sig=a70ed7504df5e3713492af5f58c3efe2" frameborder="0"></iframe>
+    </div>
     <div class="sunset">
         <a href="https://time.is/Fairhope" id="time_is_link" rel="nofollow" style="font-size:46px"></a>
         <span id="Fairhope_z123" style="font-size:46px"></span>
